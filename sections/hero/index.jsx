@@ -20,9 +20,7 @@ const Hero = () => {
 							<SloganText />
 							<MainText />
 						</div>
-
 						<script>$(window).resize();</script>
-
 						<div className='scroll-links'>
 							<a href='#about' className='nextslide'>
 								<span>Who we are?</span>
