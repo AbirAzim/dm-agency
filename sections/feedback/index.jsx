@@ -1,48 +1,47 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faEnvelope,
-} from '@fortawesome/free-solid-svg-icons'
+import * as all from '@fortawesome/free-solid-svg-icons'
+
 
 const Feedback = () => {
 	return (
 		<section id='feedback'>
-			<div class='container'>
-				<div class='row'>
-					<div class='span12'>
-						<div class='title'>Feedback form</div>
-						<div class='result'></div>
+			<div className='container'>
+				<div className='row'>
+					<div className='span12'>
+						<div className='title'>Feedback form</div>
+						<div className='result'></div>
 
-						<form class='well'>
-							<div class='row'>
-								<div class='span6 pull-left'>
+						<form className='well'>
+							<div className='row'>
+								<div className='span6 pull-left'>
 									<label>Your name</label>
 									<input
-										class='span6'
+										className='span6'
 										type='text'
 										name='name'
 										placeholder='Your Name'
 									/>
 								</div>
-								<div class='span6 pull-right'>
+								<div className='span6 pull-right'>
 									<label>Your e-mail</label>
 									<input
-										class='span6'
+										className='span6'
 										type='text'
 										name='email'
 										placeholder='Your E-mail'
 									/>
 								</div>
 							</div>
-							<div class='row'>
-								<div class='span12 textarea-margin'>
+							<div className='row'>
+								<div className='span12 textarea-margin'>
 									<label>Message</label>
 									<textarea
-										class='span12'
+										className='span12'
 										rows='6'
 										name='message'
 										placeholder='Message'></textarea>
-									<button type='submit' class='btn rounded color'>
-										<FontAwesomeIcon icon={faEnvelope} />
+									<button type='submit' className='btn rounded color'>
+										<FontAwesomeIcon className="feedback-icon" icon={all.faEnvelope} />
 										Send Message
 									</button>
 								</div>

@@ -217,6 +217,7 @@ header .container {
 	bottom: 47px;
 	left: 50%;
 	margin-left: -97px;
+	bottom:10px;
 	font-size: 24px;
 	color: #fff;
 	font-weight: normal;
@@ -510,8 +511,21 @@ nav#mainnav .selectnav {
 
 #portfolio .flexslider {
 	margin-bottom: 60px;
+	position:relative;
 }
-
+.carousel-next-prev-icons{
+	position:absolute;
+	bottom:50px;
+	right:50px;
+}
+.carousel-icon{
+	font-size:30px;
+	margin:5px;
+	color:white;
+}
+.carousel-icon:hover{
+	color:#fec400;
+}
 #portfolio hr {
 	margin: 6px 0 24px 0;
 }
@@ -730,11 +744,11 @@ nav#mainnav .selectnav {
 	margin-right: 60px;
 }
 
-.email:before {
+.contact-icon {
 	content: "";
 	margin-right: 26px;
 	/* font-family: "Web Symbols", sans-serif; */
-	font-size: 58px;
+	font-size: 45px;
 	position: relative;
 	top: 6px;
 }
@@ -754,15 +768,6 @@ nav#mainnav .selectnav {
 	letter-spacing: -1px;
 	font-style: normal;
 	margin-bottom: 75px;
-}
-
-.address:before {
-	content: "";
-	margin-right: 26px;
-	font-family: "Web Symbols", sans-serif;
-	font-size: 56px;
-	position: relative;
-	top: 7px;
 }
 
 /* Feedback ------------------------------------------ */
@@ -796,6 +801,10 @@ nav#mainnav .selectnav {
 #feedback button i.web-icon {
 	position: relative;
 	top: 4px;
+}
+.feedback-icon{
+	/* border:1px solid red; */
+	padding-right: 10px;
 }
 
 #feedback label {
