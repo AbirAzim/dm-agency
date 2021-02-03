@@ -4,11 +4,11 @@ const CopyRight = () => {
 			<div class='container'>
 				<div class='row'>
 					<div class='span12'>
-						© 2013 <strong>Goltsman Agency</strong>.{" "}
+						© 2021 <strong>Stack Solution</strong>.{" "}
 						<br class='visible-phone' />
-						Powered by <a href='http://themes.tvda.eu'>WordPress</a>.{" "}
-						<a href='http://themes.tvda.eu'>Goltsman Template</a> by{" "}
-						<a href='http://themes.tvda.eu'>TVDA</a>.
+						Powered by <a href='http://themes.tvda.eu'>Stack Solution</a>.{" "}
+						<a href='http://stacksolution.dev'>Stack Template</a> by{" "}
+						<a href='http://stacksolution.dev'>Stack Solution</a>.
 					</div>
 				</div>
 			</div>

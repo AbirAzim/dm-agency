@@ -694,11 +694,11 @@ nav#mainnav .selectnav {
 /* Contact Us ------------------------------------------ */
 
 #contact {
-	/* background: # url(../img/top-waves.png) repeat-x top; */
-	background: #fec400 url(/assets/img/bottom-waves.png) repeat-x bottom;
+	background: url(/assets/img/top-waves.png) repeat-x;
 	color: #fff;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 100px;
+	
 	
 }
 

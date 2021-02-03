@@ -1,14 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faEnvelope,
-	faPhone,
-	faAddressBook,
-	faTwitterSquare,
-} from '@fortawesome/free-solid-svg-icons'
+import * as all from '@fortawesome/free-solid-svg-icons'
+// import * as alll from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
 	return (
 		<section id='contact' style={{ backgroundColor: "#FEC400" }}>
+			<div className="overlay-contact"></div>
 			<div class='container'>
 				<div class='row'>
 					<div class='span12'>
@@ -22,15 +19,15 @@ const Contact = () => {
 						</div>
 						<address>
 							<div class='email'>
-								<FontAwesomeIcon icon={faEnvelope} />
+								<FontAwesomeIcon icon={all.faAddressBook} />
 								hello@goltsman.com
 							</div>
 							<div class='phone'>
-								<FontAwesomeIcon icon={faPhone} />
+								<FontAwesomeIcon icon={all.faPhone} />
 								8 800-580-46-32
 							</div>
 							<div class='address'>
-								<FontAwesomeIcon icon={faAddressBook} />
+								<FontAwesomeIcon icon={all.faMapMarkerAlt} />
 								103637, Russia, Moscow, Leninskaya street, bld. 36
 							</div>
 						</address>
