@@ -1,3 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faBehanceSquare,
+	faFacebookSquare,
+	faLinkedin,
+	faTwitterSquare,
+} from "@fortawesome/free-brands-svg-icons";
+
+
 const Team = () => {
 	return (
 		<section id='team' class='page'>
@@ -25,15 +34,17 @@ const Team = () => {
 										lacus, ornare et tempor et, rhoncus sem.
 									</p>
 								</div>
+								
+			
 								<ul class='profile-social-icons'>
 									<li>
-										<a href='#'>&#228;</a>
+										<a href='#'><FontAwesomeIcon icon={faFacebookSquare} /></a>
 									</li>
 									<li>
-										<a href='#t'>&#231;</a>
+										<a href='#t'><FontAwesomeIcon icon={faTwitterSquare} /></a>
 									</li>
 									<li>
-										<a href='#'>&#235;</a>
+										<a href='#'><FontAwesomeIcon icon={faLinkedin} /></a>
 									</li>
 								</ul>
 							</div>
@@ -51,13 +62,13 @@ const Team = () => {
 								</div>
 								<ul class='profile-social-icons'>
 									<li>
-										<a href='#'>&#228;</a>
+										<a href='#'><FontAwesomeIcon icon={faFacebookSquare} /></a>
 									</li>
 									<li>
-										<a href='#t'>&#231;</a>
+										<a href='#t'><FontAwesomeIcon icon={faTwitterSquare} /></a>
 									</li>
 									<li>
-										<a href='#'>&#235;</a>
+										<a href='#'><FontAwesomeIcon icon={faLinkedin} /></a>
 									</li>
 								</ul>
 							</div>
@@ -75,13 +86,13 @@ const Team = () => {
 								</div>
 								<ul class='profile-social-icons'>
 									<li>
-										<a href='#'>&#228;</a>
+										<a href='#'><FontAwesomeIcon icon={faFacebookSquare} /></a>
 									</li>
 									<li>
-										<a href='#t'>&#231;</a>
+										<a href='#t'><FontAwesomeIcon icon={faTwitterSquare} /></a>
 									</li>
 									<li>
-										<a href='#'>&#235;</a>
+										<a href='#'><FontAwesomeIcon icon={faLinkedin} /></a>
 									</li>
 								</ul>
 							</div>
@@ -99,13 +110,13 @@ const Team = () => {
 								</div>
 								<ul class='profile-social-icons'>
 									<li>
-										<a href='#'>&#228;</a>
+										<a href='#'><FontAwesomeIcon icon={faFacebookSquare} /></a>
 									</li>
 									<li>
-										<a href='#t'>&#231;</a>
+										<a href='#t'><FontAwesomeIcon icon={faTwitterSquare} /></a>
 									</li>
 									<li>
-										<a href='#'>&#235;</a>
+										<a href='#'><FontAwesomeIcon icon={faLinkedin} /></a>
 									</li>
 								</ul>
 							</div>
@@ -118,25 +129,3 @@ const Team = () => {
 };
 
 export default Team;
-
-// import Member from "../../components/Team/Member";
-
-// const Team = ({ title, description, members }) => {
-// 	return (
-// 		<section id='team' class='page'>
-// 			<div class='container'>
-// 				<div class='row'>
-// 					<div class='span12'>
-// 						<div class='title'>
-// 							<span class='yellow-text'>Who</span> we are?
-// 						</div>
-// 						<p class='lead'>{description}</p>
-// 						{members.map((member) => (
-// 							<Member member={member} />
-// 						))}
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</section>
-// 	);
-// };
