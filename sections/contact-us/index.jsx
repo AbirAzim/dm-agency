@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faEnvelope,
+	faPhone,
+	faAddressBook,
+	faTwitterSquare,
+} from '@fortawesome/free-solid-svg-icons'
+
 const Contact = () => {
 	return (
 		<section id='contact' style={{ backgroundColor: "#FEC400" }}>
@@ -13,9 +21,16 @@ const Contact = () => {
 							viverra tincidunt.
 						</div>
 						<address>
-							<div class='email'>hello@goltsman.com</div>
-							<div class='phone'>8 800-580-46-32</div>
+							<div class='email'>
+								<FontAwesomeIcon icon={faEnvelope} />
+								hello@goltsman.com
+							</div>
+							<div class='phone'>
+								<FontAwesomeIcon icon={faPhone} />
+								8 800-580-46-32
+							</div>
 							<div class='address'>
+								<FontAwesomeIcon icon={faAddressBook} />
 								103637, Russia, Moscow, Leninskaya street, bld. 36
 							</div>
 						</address>
