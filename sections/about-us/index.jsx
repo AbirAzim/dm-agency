@@ -5,7 +5,7 @@ const About = () => {
 				<div class='row'>
 					<div class='span12'>
 						<div class='title'>
-							About <span class='yellow-text'>Goltsman</span> Agency
+							About <span class='yellow-text'>Stack Solution</span>
 						</div>
 						<div class='lead'>
 							Duis tincidunt erat quam. Etiam placerat sapien elit. Pellentesque

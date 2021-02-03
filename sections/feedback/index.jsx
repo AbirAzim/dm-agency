@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
+
 const Feedback = () => {
 	return (
 		<section id='feedback'>
@@ -37,7 +42,8 @@ const Feedback = () => {
 										name='message'
 										placeholder='Message'></textarea>
 									<button type='submit' class='btn rounded color'>
-										<i class='web-icon'>8</i>Send Message
+										<FontAwesomeIcon icon={faEnvelope} />
+										Send Message
 									</button>
 								</div>
 							</div>
