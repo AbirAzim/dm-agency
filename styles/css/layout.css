@@ -29,7 +29,13 @@ body {
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
 }
-
+::-webkit-scrollbar{
+	width:12px;
+	background:black;
+}
+::-webkit-scrollbar-thumb{
+	background:linear-gradient(transparent,#fec400);
+}
 ::-moz-selection {
 	background: #3e4349;
 	color: #fff;
@@ -510,8 +516,21 @@ nav#mainnav .selectnav {
 
 #portfolio .flexslider {
 	margin-bottom: 60px;
+	position:relative;
 }
-
+.carousel-next-prev-icons{
+	position:absolute;
+	bottom:50px;
+	right:50px;
+}
+.carousel-icon{
+	font-size:30px;
+	margin:5px;
+	color:white;
+}
+.carousel-icon:hover{
+	color:#fec400;
+}
 #portfolio hr {
 	margin: 6px 0 24px 0;
 }
