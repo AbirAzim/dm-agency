@@ -1,10 +1,6 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faBars,
-	faImage
-} from '@fortawesome/free-solid-svg-icons'
-import { faFontAwesome } from "@fortawesome/free-brands-svg-icons";
+import * as all from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Portfolio = () => {
@@ -15,7 +11,7 @@ const Portfolio = () => {
 					<div class='span12'>
 						<div class='title'>Portfolio</div>
 						<div class='flexslider'>
-							<ul class='slides'>
+							<ul class=''>
 								<li>
 									<div class='slider-text'>
 										<a href='#' class='slider-title'>
@@ -29,8 +25,12 @@ const Portfolio = () => {
 										</div>
 									</div>
 									<img src='img/slider/1.jpg' alt='' />
+									<div className="carousel-next-prev-icons">
+										<FontAwesomeIcon className="carousel-icon carousel-prev-icon" icon={all.faArrowAltCircleLeft} />
+										<FontAwesomeIcon className="carousel-icon carousel-next-icon" icon={all.faArrowAltCircleRight} />
+									</div>
 								</li>
-								<li>
+								<li style={{display:"none "}}>
 									<div class='slider-text'>
 										<a href='#' class='slider-title'>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -43,7 +43,7 @@ const Portfolio = () => {
 									</div>
 									<img src='img/slider/2.jpg' alt='' />
 								</li>
-								<li>
+								<li style={{display:"none"}}>
 									<div class='slider-text'>
 										<a href='#' class='slider-title'>
 											Class aptent taciti
@@ -69,7 +69,7 @@ const Portfolio = () => {
 
 						<ul class='option-set' data-option-key='filter'>
 							<li class='filter-icon hidden-phone'>
-								<FontAwesomeIcon icon={faBars} />
+								<FontAwesomeIcon icon={all.faBars} />
 							</li>
 							<li>
 								<a class='selected' href='#filter' data-option-value='*'>
@@ -107,7 +107,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img
 											src='img/projects/thumb1.jpg'
@@ -175,7 +175,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img
 											src='img/projects/thumb2.jpg'
@@ -195,7 +195,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb3.jpg' alt='' />
 									</div>
@@ -212,7 +212,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb4.jpg' alt='' />
 									</div>
@@ -229,7 +229,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb5.jpg' alt='' />
 									</div>
@@ -246,7 +246,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb6.jpg' alt='' />
 									</div>
@@ -263,7 +263,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb7.jpg' alt='' />
 									</div>
@@ -280,7 +280,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb8.jpg' alt='' />
 									</div>
@@ -297,7 +297,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb9.jpg' alt='' />
 									</div>
@@ -314,7 +314,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb10.jpg' alt='' />
 									</div>
@@ -331,7 +331,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb11.jpg' alt='' />
 									</div>
@@ -348,7 +348,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb12.jpg' alt='' />
 									</div>
@@ -365,7 +365,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb13.jpg' alt='' />
 									</div>
@@ -382,7 +382,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb14.jpg' alt='' />
 									</div>
@@ -399,7 +399,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb15.jpg' alt='' />
 									</div>
@@ -416,7 +416,7 @@ const Portfolio = () => {
 									title='Lorem ipsum dolor sit amet'>
 									<div class='profile-photo'>
 										<div class='profile-icon'>
-											<FontAwesomeIcon icon={faImage} />
+											<FontAwesomeIcon icon={all.faImage} />
 										</div>
 										<img src='img/projects/thumb16.jpg' alt='' />
 									</div>
