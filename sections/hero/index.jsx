@@ -4,9 +4,8 @@ import Logo from "../../components/Home/Logo";
 import Nav from "../../components/Home/Nav";
 import MainText from "../../components/Home/MainText";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faEnvelope
-} from '@fortawesome/free-solid-svg-icons'
+import * as all from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -48,7 +47,7 @@ const Hero = () => {
 							<a href='#about' className='nextslide'>
 								<span>
 									<i className='nextslide-icon'>
-										<FontAwesomeIcon icon={faEnvelope} />
+										<FontAwesomeIcon icon={all.faArrowAltCircleDown} />
 									</i>
 									Who we are?
 								</span>

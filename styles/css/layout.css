@@ -32,10 +32,14 @@ body {
 ::-webkit-scrollbar{
 	width:12px;
 	background:black;
+
 }
 ::-webkit-scrollbar-thumb{
-	background:linear-gradient(transparent,#fec400);
+	background:#ffc400;
+	border-radius:5px;
 }
+
+
 ::-moz-selection {
 	background: #3e4349;
 	color: #fff;
